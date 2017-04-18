@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.work__container{
+	display: flex;
+}
+
+.work__box{
+	/*background: #dedede;*/
+	border: 1px solid black;
+	width: 25vw;
+    height: 25vw;
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+    overflow: hidden;
+	/*background: red;*/
+}
+
+.work__box:hover .work__box-inner{
+	transform: scale(1.5);
+}
+
+.work__box-inner{
+	width: 100%;
+	height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .9s;
+}
+
+
+.work__title{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.work1{
+	background-image: url("images/work1.png");
+}
